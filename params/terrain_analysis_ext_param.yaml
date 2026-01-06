@@ -1,0 +1,22 @@
+terrain_analysis_ext:
+  ros__parameters:
+    odom_frame: odom
+    lidar_frame: mid360
+    terrain_voxel_size: 2.0
+    terrain_voxel_width: 41
+    planar_voxel_size: 0.4
+    planar_voxel_width: 101
+    voxel_point_count_thre: 100
+    ground_elevation_thre: 0.5
+    use_terrain_dyn_thre: 1.5
+    check_terrain_conn: true
+    terrain_under_vehicle: -0.75
+    ceiling_filtering_thre: 2.0
+    local_terrain_map_radius: 4.0
+    downsize_filter_corner: 0.2
+    downsize_filter_surface: 0.1
+    point_decay_period: 10
+    point_decay_ratio: 0.5
+    vertical_angle_thre: 0.0
+    max_terrain_angle: 30.0
+    ground_z_thre: 0.1
